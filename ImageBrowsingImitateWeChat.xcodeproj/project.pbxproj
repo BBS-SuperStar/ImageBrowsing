@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35837DC32053872B004C14C8 /* UIImageView+TapGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 35837DC22053872B004C14C8 /* UIImageView+TapGesture.m */; };
 		359A3E5720526B78009BD498 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A3E5620526B78009BD498 /* AppDelegate.m */; };
 		359A3E5A20526B78009BD498 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A3E5920526B78009BD498 /* ViewController.m */; };
 		359A3E5D20526B78009BD498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359A3E5B20526B78009BD498 /* Main.storyboard */; };
@@ -15,6 +16,14 @@
 		359A3E6520526B78009BD498 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A3E6420526B78009BD498 /* main.m */; };
 		359A3E6F20526B78009BD498 /* ImageBrowsingImitateWeChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A3E6E20526B78009BD498 /* ImageBrowsingImitateWeChatTests.m */; };
 		359A3E7A20526B78009BD498 /* ImageBrowsingImitateWeChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A3E7920526B78009BD498 /* ImageBrowsingImitateWeChatUITests.m */; };
+		359A3E8A205272D1009BD498 /* BBSSingleImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A3E89205272D1009BD498 /* BBSSingleImageViewCell.m */; };
+		359A3E8D205272ED009BD498 /* BBSTwoImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A3E8C205272ED009BD498 /* BBSTwoImageViewCell.m */; };
+		359A3E90205272FE009BD498 /* BBSThreeImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A3E8F205272FE009BD498 /* BBSThreeImageViewCell.m */; };
+		359A3E932052730E009BD498 /* BBSFourImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A3E922052730E009BD498 /* BBSFourImageViewCell.m */; };
+		359A3E9620527364009BD498 /* UITableViewCell+Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A3E9520527364009BD498 /* UITableViewCell+Handler.m */; };
+		359A3E9A205298FB009BD498 /* BBSImageBrowsingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A3E99205298FB009BD498 /* BBSImageBrowsingController.m */; };
+		359A3E9D2052A182009BD498 /* BBSPresentAnimationTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A3E9C2052A182009BD498 /* BBSPresentAnimationTransitioning.m */; };
+		886AD2A1A92DB03004E40B77 /* libPods-ImageBrowsingImitateWeChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A21651B522CA5A9AA500C2CD /* libPods-ImageBrowsingImitateWeChat.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35837DC12053872B004C14C8 /* UIImageView+TapGesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+TapGesture.h"; sourceTree = "<group>"; };
+		35837DC22053872B004C14C8 /* UIImageView+TapGesture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TapGesture.m"; sourceTree = "<group>"; };
 		359A3E5220526B78009BD498 /* ImageBrowsingImitateWeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageBrowsingImitateWeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		359A3E5520526B78009BD498 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		359A3E5620526B78009BD498 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +62,23 @@
 		359A3E7520526B78009BD498 /* ImageBrowsingImitateWeChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageBrowsingImitateWeChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		359A3E7920526B78009BD498 /* ImageBrowsingImitateWeChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageBrowsingImitateWeChatUITests.m; sourceTree = "<group>"; };
 		359A3E7B20526B78009BD498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		359A3E88205272D1009BD498 /* BBSSingleImageViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBSSingleImageViewCell.h; sourceTree = "<group>"; };
+		359A3E89205272D1009BD498 /* BBSSingleImageViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBSSingleImageViewCell.m; sourceTree = "<group>"; };
+		359A3E8B205272ED009BD498 /* BBSTwoImageViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBSTwoImageViewCell.h; sourceTree = "<group>"; };
+		359A3E8C205272ED009BD498 /* BBSTwoImageViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBSTwoImageViewCell.m; sourceTree = "<group>"; };
+		359A3E8E205272FE009BD498 /* BBSThreeImageViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBSThreeImageViewCell.h; sourceTree = "<group>"; };
+		359A3E8F205272FE009BD498 /* BBSThreeImageViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBSThreeImageViewCell.m; sourceTree = "<group>"; };
+		359A3E912052730E009BD498 /* BBSFourImageViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBSFourImageViewCell.h; sourceTree = "<group>"; };
+		359A3E922052730E009BD498 /* BBSFourImageViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBSFourImageViewCell.m; sourceTree = "<group>"; };
+		359A3E9420527364009BD498 /* UITableViewCell+Handler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Handler.h"; sourceTree = "<group>"; };
+		359A3E9520527364009BD498 /* UITableViewCell+Handler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Handler.m"; sourceTree = "<group>"; };
+		359A3E98205298FB009BD498 /* BBSImageBrowsingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBSImageBrowsingController.h; sourceTree = "<group>"; };
+		359A3E99205298FB009BD498 /* BBSImageBrowsingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBSImageBrowsingController.m; sourceTree = "<group>"; };
+		359A3E9B2052A182009BD498 /* BBSPresentAnimationTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBSPresentAnimationTransitioning.h; sourceTree = "<group>"; };
+		359A3E9C2052A182009BD498 /* BBSPresentAnimationTransitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBSPresentAnimationTransitioning.m; sourceTree = "<group>"; };
+		8AF97F55136F0EE353BB94B6 /* Pods-ImageBrowsingImitateWeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageBrowsingImitateWeChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageBrowsingImitateWeChat/Pods-ImageBrowsingImitateWeChat.release.xcconfig"; sourceTree = "<group>"; };
+		A21651B522CA5A9AA500C2CD /* libPods-ImageBrowsingImitateWeChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImageBrowsingImitateWeChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE92536EECAFAA365520AD7 /* Pods-ImageBrowsingImitateWeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageBrowsingImitateWeChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageBrowsingImitateWeChat/Pods-ImageBrowsingImitateWeChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				886AD2A1A92DB03004E40B77 /* libPods-ImageBrowsingImitateWeChat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +107,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		092113102BF4A4D408D75F0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A21651B522CA5A9AA500C2CD /* libPods-ImageBrowsingImitateWeChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35837DC0205385EA004C14C8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				359A3E9420527364009BD498 /* UITableViewCell+Handler.h */,
+				359A3E9520527364009BD498 /* UITableViewCell+Handler.m */,
+				35837DC12053872B004C14C8 /* UIImageView+TapGesture.h */,
+				35837DC22053872B004C14C8 /* UIImageView+TapGesture.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		359A3E4920526B78009BD498 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +133,8 @@
 				359A3E6D20526B78009BD498 /* ImageBrowsingImitateWeChatTests */,
 				359A3E7820526B78009BD498 /* ImageBrowsingImitateWeChatUITests */,
 				359A3E5320526B78009BD498 /* Products */,
+				A56D539EAB870390CC238546 /* Pods */,
+				092113102BF4A4D408D75F0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +151,9 @@
 		359A3E5420526B78009BD498 /* ImageBrowsingImitateWeChat */ = {
 			isa = PBXGroup;
 			children = (
+				35837DC0205385EA004C14C8 /* Category */,
+				359A3E97205298D5009BD498 /* ImageBrowsing */,
+				359A3E872052727E009BD498 /* tableViewCell */,
 				359A3E5520526B78009BD498 /* AppDelegate.h */,
 				359A3E5620526B78009BD498 /* AppDelegate.m */,
 				359A3E5820526B78009BD498 /* ViewController.h */,
@@ -132,6 +185,41 @@
 			path = ImageBrowsingImitateWeChatUITests;
 			sourceTree = "<group>";
 		};
+		359A3E872052727E009BD498 /* tableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				359A3E88205272D1009BD498 /* BBSSingleImageViewCell.h */,
+				359A3E89205272D1009BD498 /* BBSSingleImageViewCell.m */,
+				359A3E8B205272ED009BD498 /* BBSTwoImageViewCell.h */,
+				359A3E8C205272ED009BD498 /* BBSTwoImageViewCell.m */,
+				359A3E8E205272FE009BD498 /* BBSThreeImageViewCell.h */,
+				359A3E8F205272FE009BD498 /* BBSThreeImageViewCell.m */,
+				359A3E912052730E009BD498 /* BBSFourImageViewCell.h */,
+				359A3E922052730E009BD498 /* BBSFourImageViewCell.m */,
+			);
+			path = tableViewCell;
+			sourceTree = "<group>";
+		};
+		359A3E97205298D5009BD498 /* ImageBrowsing */ = {
+			isa = PBXGroup;
+			children = (
+				359A3E98205298FB009BD498 /* BBSImageBrowsingController.h */,
+				359A3E99205298FB009BD498 /* BBSImageBrowsingController.m */,
+				359A3E9B2052A182009BD498 /* BBSPresentAnimationTransitioning.h */,
+				359A3E9C2052A182009BD498 /* BBSPresentAnimationTransitioning.m */,
+			);
+			path = ImageBrowsing;
+			sourceTree = "<group>";
+		};
+		A56D539EAB870390CC238546 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDE92536EECAFAA365520AD7 /* Pods-ImageBrowsingImitateWeChat.debug.xcconfig */,
+				8AF97F55136F0EE353BB94B6 /* Pods-ImageBrowsingImitateWeChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 359A3E7E20526B78009BD498 /* Build configuration list for PBXNativeTarget "ImageBrowsingImitateWeChat" */;
 			buildPhases = (
+				D5F74D37D5E2F42087701AD5 /* [CP] Check Pods Manifest.lock */,
 				359A3E4E20526B78009BD498 /* Sources */,
 				359A3E4F20526B78009BD498 /* Frameworks */,
 				359A3E5020526B78009BD498 /* Resources */,
+				FDC91041A192CF1B1A29A26E /* [CP] Embed Pods Frameworks */,
+				2F491E69A2D956FD5DB67F88 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +285,7 @@
 		359A3E4A20526B78009BD498 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BBS;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "李子栋";
 				TargetAttributes = {
@@ -260,14 +352,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F491E69A2D956FD5DB67F88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageBrowsingImitateWeChat/Pods-ImageBrowsingImitateWeChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5F74D37D5E2F42087701AD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImageBrowsingImitateWeChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDC91041A192CF1B1A29A26E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageBrowsingImitateWeChat/Pods-ImageBrowsingImitateWeChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		359A3E4E20526B78009BD498 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				359A3E5A20526B78009BD498 /* ViewController.m in Sources */,
+				359A3E932052730E009BD498 /* BBSFourImageViewCell.m in Sources */,
 				359A3E6520526B78009BD498 /* main.m in Sources */,
+				359A3E9A205298FB009BD498 /* BBSImageBrowsingController.m in Sources */,
+				359A3E8A205272D1009BD498 /* BBSSingleImageViewCell.m in Sources */,
+				359A3E8D205272ED009BD498 /* BBSTwoImageViewCell.m in Sources */,
 				359A3E5720526B78009BD498 /* AppDelegate.m in Sources */,
+				35837DC32053872B004C14C8 /* UIImageView+TapGesture.m in Sources */,
+				359A3E9620527364009BD498 /* UITableViewCell+Handler.m in Sources */,
+				359A3E9D2052A182009BD498 /* BBSPresentAnimationTransitioning.m in Sources */,
+				359A3E90205272FE009BD498 /* BBSThreeImageViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +579,7 @@
 		};
 		359A3E7F20526B78009BD498 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDE92536EECAFAA365520AD7 /* Pods-ImageBrowsingImitateWeChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +594,7 @@
 		};
 		359A3E8020526B78009BD498 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AF97F55136F0EE353BB94B6 /* Pods-ImageBrowsingImitateWeChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

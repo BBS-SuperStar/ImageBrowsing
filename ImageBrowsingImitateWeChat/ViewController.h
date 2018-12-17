@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong, readonly) UITableView *customTableView;
+@property (nonatomic, strong, readonly) UIImageView *animationImageView;
 
 @end
 
